@@ -62,3 +62,36 @@ footer {
     width: 100%;
 }
 
+/* Add this to your existing CSS styles */
+#chat {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#chatMessages {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#chatInput {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#chat button {
+    background-color: #333;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+
