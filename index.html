@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Leadway Express Service</title>
+</head>
+<body>
+    <header>
+        <h1>Leadway Express</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tracking">Track Package</a></li>
+                <li><a href="#booking">Book Shipment</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Leadway Express</h2>
+	<p>Serving All Your Logistics Needs</p>
+    </section>
+
+    <section id="tracking">
+        <h2>Track Your Package</h2>
+        <label for="trackingNumber">Enter Tracking Number:</label>
+        <input type="text" id="trackingNumber">
+        <button onclick="trackPackage()">Track</button>
+        <p id="trackingResult"></p>
+    </section>
+
+    <section id="booking">
+        <h2>Book a Shipment</h2>
+        <form id="shipmentForm">
+            <label for="senderName">Sender's Name:</label>
+            <input type="text" id="senderName" required>
+
+            <label for="receiverName">Receiver's Name:</label>
+            <input type="text" id="receiverName" required>
+
+            <label for="shipmentDetails">Shipment Details:</label>
+            <textarea id="shipmentDetails" required></textarea>
+
+            <button type="submit">Book Shipment</button>
+        </form>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+	Leadway Express was originally founded by Stephen
+	Wadler in 1956 as Modern Mail Service with the goal 
+	to meet mail delivery and messenger needs of the 
+	East Bay Area businesses. Since then, we’ve 
+	continued to grow and diversify our service offerings 
+	to meet your needs. We credit our friendly, reliable 
+	service as a critical pillar for our continued success.
+
+	Now we are Northern California’s fastest, most dependable, 24/7 delivery service. Our courier services for the greater San Francisco Bay Area include same-day delivery, overnight delivery, route service, US mail, warehousing and distribution. We look forward to working with you!</p>
+    </section>
+
+    <section id="locations">
+        <h2>Our Locations</h2>
+	<p>
+	760 4th St
+	Oakland, CA 94607</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+	Phone: (800) 400-7874
+	Fax: (510) 474-1519</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Leadway Express Service</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
